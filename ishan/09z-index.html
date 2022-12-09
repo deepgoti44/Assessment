@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .my{
+            height: 100px;
+            width: 100px;
+            border: 2px solid;
+        }
+        .one{
+            background-color: red;
+            margin-left: 200px;
+            margin-top: 200px;
+            position: relative;
+        }
+        .two{
+            background-color: yellow;
+            margin-left: 250px;
+            margin-top: -150px;
+            position: absolute;
+            z-index: 1;
+        }
+        .three{
+            background-color: green;
+            position: absolute;
+            margin-left: 300px;
+            margin-top: -200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="one my"></div>
+    <div class="two my"></div>
+    <div class="three my"></div>
+</body>
+</html>
